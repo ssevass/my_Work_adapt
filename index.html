@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./component/boostrap.min.css">
+    <link rel="stylesheet" href="./styles/all.min.css">
+    <link rel="stylesheet" href="./styles/font.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <title>boostrap</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="./images/Rectangle1.png" alt="Rectangle1" class="Rectangle1 position-absolute">
+        <img src="./images/Rectangle2.png" alt="Rectangle2" class="Rectangle2 position-absolute">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg position-relative">
+                <img src="./images/cycle1.png" alt="cycle1" class="cycle1 position-absolute">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="./images/header_logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fal fa-bars header__icon"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav__item">
+                                <a class="nav__link text-decoration-none" aria-current="page" href="#">About me</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link text-decoration-none" href="#">Works</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link text-decoration-none nav-active" href="#">to order</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link text-decoration-none me-0" href="#"><i
+                                        class="fal fa-phone-square-alt"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="slider overflow-hidden position-relative">
+                <img src="./images/slider__Rectangle.png" alt="slider__Rectangle"
+                    class="slider__rectangle position-absolute">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="slider-content d-flex">
+                        <div class="carousel-left col-sm-12 col-md-10 col-lg-9 col-xl-6 col-xxl-6">
+                            <div class="slider__info col-10 ms-auto">
+                                <h4 class="slider__info-text">My beginning</h4>
+                                <h2 class="slider__info-title">Self-development and training in the training center</h2>
+                            </div>
+                            <button class="slider__info-btn col-6 m-auto"><a href="#!" class="slider__btn-link">GET
+                                    STARTED NOW</a></button>
+                            <div class="slider__brands d-flex">
+                                <div
+                                    class="slider__brand col-4 d-flex flex-column align-items-center justify-content-center">
+                                    <img src="./images/html.png" alt="html" class="slider__brand__imgs">
+                                    <h5>HTML</h5>
+                                </div>
+                                <div
+                                    class="slider__brand col-4 d-flex flex-column align-items-center justify-content-center">
+                                    <img src="./images/css.png" alt="CSS" class="slider__brand__imgs">
+                                    <h5>css</h5>
+                                </div>
+                                <div
+                                    class="slider__brand col-4 d-flex flex-column align-items-center justify-content-center">
+                                    <img src="./images/bootstrap.png" alt="bootstrap" class="slider__brand__imgs">
+                                    <h5>bootstrap</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" crsl__img__block carousel-inner col-6">
+                            <div class=" crsl__itm carousel-item active">
+                                <img src="./images/slider1.png" class=" crsl__imgs d-block w-100" alt="...">
+                            </div>
+                            <div class="crsl__itm carousel-item">
+                                <img src="./images/slider3.png" class="crsl__imgs d-block w-100" alt="...">
+                            </div>
+                            <div class="crsl__itm carousel-item">
+                                <img src="./images/slider2.png" class="crsl__imgs d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" crsl__indctr carousel-indicators align-items-center">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="slider__btn active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2" class="slider__btn"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3" class="slider__btn"></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="position-relative">
+            <img src="./images/about__bg.png" alt="about__bg" class="about__bg position-absolute">
+            <div class="container">
+                <section class="about d-flex">
+                    <div class="about__left col-sm-12 col-md-11 col-lg-11 col-xl-6 col-xxl-6 position-relative d-flex justify-content-center align-items-center">
+                        <div
+                            class="about__left-btn position-absolute col-3 d-flex justify-content-center align-items-center">
+                            <a href="#!" class="about__btn-link position-relative">my work for<span
+                                    class="about__btn-count position-absolute d-flex align-items-center justify-content-center">5+</span></a>
+
+                        </div>
+                        <img src="./images/about.png" alt="about" class="about__img">
+                    </div>
+                    <div class="about__right col-sm-12 col-md-11 col-lg-11 col-xl-6 col-xxl-6 mt-md-5 d-flex flex-column align-items-center">
+                        <h2 class="about__title col-10">
+                            What is Frond-End
+                        </h2>
+                        <p class="about__text col-10">
+                            it is the development of of the user interface and functions that run on on the client side
+                            of a website or application
+                            This is everything that a user sees when opening a or aweb page and with which he interacts.
+                        </p>
+                        <p class="about__text col-10">
+                            This is everything that a user sees when opening a web page and with which he interacts.
+                        </p>
+                        <div class="col-8">
+                            <button class="about__btn"><a href="#!" class="about__btn-link">go to work</a></button>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="container">
+            
+        <section class="capability">
+            <div class="text-center">
+                <h2 class="capability__title">capabilities</h2>
+            </div>
+            <div class="capability-content d-flex justify-content-between align-items-center">
+                <div class="capability__accardion col-sm-12 col-md-11 col-lg-11 col-xl-6 col-xxl-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne">
+                                    <img src="./images/accardion__logo1.png" alt="" class="accardion__btn-logo">
+                                    <span>HTML</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices dictum
+                                    cras sit volutpat morbi adipiscing ut. Convallis faucibus ligula blandit enim.
+                                    Accumsan est </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo">
+                                    <img src="./images/accardion__logo2.png" alt="" class="accardion__btn-logo">
+                                    <span>CSS</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices dictum
+                                    cras sit volutpat morbi adipiscing ut. Convallis faucibus ligula blandit enim.
+                                    Accumsan est </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree">
+                                    <img src="./images/accardion__logo3.png" alt="" class="accardion__btn-logo">
+                                    <span>bootstrap 5</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices dictum
+                                    cras sit volutpat morbi adipiscing ut. Convallis faucibus ligula blandit enim.
+                                    Accumsan est </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="capability__img-block col-sm-12 col-md-11 col-lg-11 col-xl-6 col-xxl-6 ms-5 ms-lg-0 text-center"><img src="./images/capability.png" alt=""
+                        class="capability__img"></div>
+            </div>
+
+
+        </section>
+        </div>
+        <div class="position-relative">
+            <img src="./images/work__bg.png" alt="work__bg" class="work__bg position-absolute">
+            <div class="container">
+                <section class="work">
+                    <div class="text-center">
+                        <h2 class="capability__title">My Works</h2>
+                    </div>
+                    <div class="work-content">
+                        <div class="work__media row">
+                            <ul class="nav nav-pills d-flex flex-column col-xxl-3 col-xl-9 col-lg-10 col-md-11 col-sm-12" id="v-pills-tab" role="tablist">
+                                <li class="work__item d-flex align-items-center ps-3"><a href="#nike-target"
+                                        class="nav-link work__link active text-capitalize" data-bs-toggle="pill" id="NIKE-tab"
+                                        data-bs-target="#nike-target" role="tab">NIKE</a></li>
+                                <li class="work__item d-flex align-items-center ps-3"><a href="#silver-target"
+                                        class="nav-link work__link text-capitalize" data-bs-toggle="pill" id="SILVER-tab"
+                                        data-bs-target="#silver-target" role="tab">TNW</a></li>
+                                <li class="work__item d-flex align-items-center ps-3"><a href="#orange-target"
+                                        class="nav-link work__link text-capitalize" data-bs-toggle="pill" id="ORANGE-tab"
+                                        data-bs-target="#orange-target" role="tab">BLUE-MARKETING</a></li>
+                                <li class="work__item d-flex align-items-center ps-3"><a href="#toshkent-target"
+                                        class="nav-link work__link text-capitalize" data-bs-toggle="pill" id="TOSHKENT-tab"
+                                        data-bs-target="#toshkent-target" role="tab">BOULEVARD-MARKET</a></li>
+                                <li class="work__item d-flex align-items-center ps-3"><a href="#street-target"
+                                        class="nav-link work__link text-capitalize" data-bs-toggle="pill" id="STREET88-tab"
+                                        data-bs-target="#street-target" role="tab">STREET88</a></li>
+                                <li class="work__item d-flex align-items-center ps-3"><a href="#pizza-target"
+                                        class="nav-link work__link text-capitalize" data-bs-toggle="pill" id="PIZZERIA-tab"
+                                        data-bs-target="#pizza-target" role="tab">VUE-CINEMA</a></li>
+                                <li class="work__item d-flex align-items-center ps-3"><a href="#openshop-target"
+                                        class="nav-link work__link text-capitalize" data-bs-toggle="pill" id="OPENSHOP-tab"
+                                        data-bs-target="#openshop-target" role="tab">OPENSHOP</a></li>
+                            </ul>
+                            <div class="tab-content col-xxl-9 col-xl-12 col-lg-12 col-md-12 col-sm-12" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="nike-target" role="tabpanel">
+                                    <div class="work__tab d-flex">
+                                        <img src="./images/nike.png" alt="nike" class="tab__img col-xxl-3">
+                                        <div class="tab__info col-8 ms-auto">
+                                            <h3 class="tab__title">NIKE Layout</h3>
+                                            <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci,
+                                                mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et
+                                                nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id
+                                                amet, lorem vitae lectus risus diam</p>
+                                            <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non
+                                                eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                            <div class="col-11 ms-auto"><button class="tab__btn"><a href="#!"
+                                                        class="tab__link">details</a></button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="silver-target" role="tabpanel">
+                                    <div class="work__tab d-flex">
+                                        <img src="./images/TNW.png" alt="nike" class="tab__img col-xxl-3">
+                                        <div class="tab__info col-8 ms-auto">
+                                            <h3 class="tab__title">TNW Layout</h3>
+                                            <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci,
+                                                mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et
+                                                nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id
+                                                amet, lorem vitae lectus risus diam</p>
+                                            <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non
+                                                eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                            <div class="col-11 ms-auto"><button class="tab__btn"><a href="#!"
+                                                        class="tab__link">details</a></button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="orange-target" role="tabpanel">
+                                    <div class="work__tab d-flex">
+                                        <img src="./images/Blue marketing.png" alt="nike" class="tab__img col-xxl-3">
+                                        <div class="tab__info col-8 ms-auto">
+                                            <h3 class="tab__title">BLUE-MARKETING Layout</h3>
+                                            <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci,
+                                                mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et
+                                                nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id
+                                                amet, lorem vitae lectus risus diam</p>
+                                            <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non
+                                                eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                            <div class="col-11 ms-auto"><button class="tab__btn"><a href="#!"
+                                                        class="tab__link">details</a></button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="toshkent-target" role="tabpanel">
+                                    <div class="work__tab d-flex">
+                                        <img src="./images/Boulevard market.png" alt="nike" class="tab__img col-xxl-3">
+                                        <div class="tab__info col-8 ms-auto">
+                                            <h3 class="tab__title">BOULEVARD-MARKET Layout</h3>
+                                            <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci,
+                                                mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et
+                                                nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id
+                                                amet, lorem vitae lectus risus diam</p>
+                                            <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non
+                                                eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                            <div class="col-11 ms-auto"><button class="tab__btn"><a href="#!"
+                                                        class="tab__link">details</a></button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="street-target" role="tabpanel">
+                                    <div class="work__tab d-flex">
+                                        <img src="./images/Street88.png" alt="nike" class="tab__img col-xxl-3">
+                                        <div class="tab__info col-8 ms-auto">
+                                            <h3 class="tab__title">STREET88 Layout</h3>
+                                            <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci,
+                                                mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et
+                                                nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id
+                                                amet, lorem vitae lectus risus diam</p>
+                                            <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non
+                                                eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                            <div class="col-11 ms-auto"><button class="tab__btn"><a href="#!"
+                                                        class="tab__link">details</a></button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pizza-target" role="tabpanel">
+                                    <div class="work__tab d-flex">
+                                        <img src="./images/Vue Cinemas.png" alt="nike" class="tab__img col-xxl-3">
+                                        <div class="tab__info col-8 ms-auto">
+                                            <h3 class="tab__title">VUE-CINEMA Layout</h3>
+                                            <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci,
+                                                mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et
+                                                nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id
+                                                amet, lorem vitae lectus risus diam</p>
+                                            <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non
+                                                eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                            <div class="col-11 ms-auto"><button class="tab__btn"><a href="#!"
+                                                        class="tab__link">details</a></button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="openshop-target" role="tabpanel">
+                                    <div class="work__tab d-flex">
+                                        <img src="./images/OpenShop.png" alt="nike" class="tab__img col-xxl-3">
+                                        <div class="tab__info col-8 ms-auto">
+                                            <h3 class="tab__title">OPENSHOP Layout</h3>
+                                            <p class="tab__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci,
+                                                mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et
+                                                nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id
+                                                amet, lorem vitae lectus risus diam</p>
+                                            <p class="tab__text">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non
+                                                eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                            <div class="col-11 ms-auto"><button class="tab__btn"><a href="#!"
+                                                        class="tab__link">details</a></button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content col-xxl-5 col-xl-5 col-lg-8 col-md-10 col-sm-12 mt-5 mb-5 ms-auto text-center">
+                <img src="./images/header_logo.png" alt="header_logo">
+                <ul class="footer__list d-flex list-unstyled">
+                    <li class="footer__item m-3"><a href="#!" class="footer__link">about Me</a></li>
+                    <li class="footer__item m-3"><a href="#!" class="footer__link">Works</a></li>
+                    <li class="footer__item m-3"><a href="#!" class="footer__link">Contacts</a></li>
+                </ul>
+                <div class="footer__contact d-flex justify-content-between">
+                    <a href="tel:+2395550108" class="footer__link">(239) 555-0108</a>
+                    <a href="mailto:Ronald Richards@gmail.com" class="footer__link">Ronald Richards@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./component/popper.min.js"></script>
+    <script src="./component/bootstrap.min.js"></script>
+</body>
+
+</html>
